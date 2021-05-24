@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    app:cardElevation="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_Ma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Mã phiếu mượn: 1"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_User"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Người tạo: chiemduong97"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Người mượn: hoangan"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_Sach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Tên sách: Photoshop"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_GiaThueSach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Giá thuê: 20000"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_NgayThue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Ngày thuê: 22/05/2021"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_layout_PhieuMuon_NgayTra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Ngày trả: null"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+                <CheckBox
+                    android:id="@+id/tv_layout_PhieuMuon_TrangThai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trả sách"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="right">
+            <ImageView
+                android:id="@+id/btnSuaPhieuMuon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/ic_edit"/>
+            <ImageView
+                android:id="@+id/btnXoaPhieuMuon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/ic_delete" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

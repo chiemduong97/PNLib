@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            app:showAsAction="never"/>
+        <item android:title="Quản lý phiếu mượn"
+            android:id="@+id/quanlyphieumuon"
+            android:icon="@drawable/ic_phieu_muon"
+            app:showAsAction="never" />
+        <item android:title="Quản lý sách"
+            android:id="@+id/quanlysach"
+            android:icon="@drawable/ic_sach"
+            app:showAsAction="never"/>
+        <item android:title="Quản lý thành viên"
+            android:id="@+id/quanlythanhvien"
+            android:icon="@drawable/ic_thanh_vien"
+            app:showAsAction="never"/>
+        <item android:title="Quản lý User"
+            android:id="@+id/quanlyuser"
+            android:icon="@drawable/ic_user"
+            app:showAsAction="never"/>
+        <item android:title="Thống kê"
+            android:id="@+id/thongke"
+            android:icon="@drawable/ic_thong_ke"
+            app:showAsAction="never"/>
+    </group>
+    <item android:title="Thoát"
+        android:id="@+id/thoat"
+        android:icon="@drawable/ic_thoat"
+        app:showAsAction="never"/>
+
+
+
+</menu>
